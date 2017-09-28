@@ -65,3 +65,204 @@ Completed 500 Internal Server Error in 172ms
 NameError (undefined local variable or method `client' for #<HomeController:0x007ff286121dc8>):
   
 app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:36:44 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 140ms
+
+
+  
+NameError (undefined local variable or method `client' for #<HomeController:0x007ff289049768>):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:36:50 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 159ms
+
+
+  
+NameError (undefined local variable or method `client' for #<HomeController:0x007ff2893b3138>):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:37:08 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 348ms
+
+
+  
+NameError (undefined local variable or method `client' for #<HomeController:0x007f88fc05a370>):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:37:26 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.2ms)
+Completed 500 Internal Server Error in 367ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/config
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/images
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/images
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/node_modules):
+    4:     <title>TweetToy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2715507298530549948_70113162053840'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:39:42 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 384ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/config
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/images
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/images
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/node_modules):
+    4:     <title>TweetToy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1539066474427493103_70092408354720'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:40:18 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 372ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/config
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/images
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/images
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/node_modules):
+    4:     <title>TweetToy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2208293375140734863_70164013874520'
+Started GET "/" for 127.0.0.1 at 2017-09-27 22:41:28 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 376ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/config
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/images
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/images
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/node_modules):
+    4:     <title>TweetToy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__617918087384399044_70336971157660'
+Started GET "/" for 127.0.0.1 at 2017-09-28 13:02:53 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.8ms)
+Completed 500 Internal Server Error in 82ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/config
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/images
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/images
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/javascripts
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/social-share-button-0.1.10/app/assets/stylesheets
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/ginnyfahs/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/ginnyfahs/Desktop/DBC/tweet-toy/node_modules):
+    4:     <title>TweetToy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__617918087384399044_70336992824100'
+Started GET "/" for 127.0.0.1 at 2017-09-28 13:04:15 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 132ms (Views: 129.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-28 13:04:26 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 30.7ms)
+
+
